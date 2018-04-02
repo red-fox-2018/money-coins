@@ -1,0 +1,13 @@
+- buat sebuah function convertToCoin dengan parameter "num" yang akan diisi dengan nominal uang yang akan ditukarkan.
+
+- buat sebuah variable "money" berbentuk array dengan isi angka = 1, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000
+
+- buat sebuah variable bernama "result" berupa array kosong untuk menerima pecahan uang hasil tukar.
+
+- buat sebuah perulangan dimulai dari variable "i" = 0 sebanyak jumlah isi dari variable "money", dan buat kondisi menggunakan perulangan:
+
+  * jika "num" lebih besar dari atau sama dengan variable "money" index "i", maka :
+
+    # masukkan value money index "i" ke dalam variable "result" dan kurangi num sebanyak money index "i"
+
+- kembalikan nilai "result"
