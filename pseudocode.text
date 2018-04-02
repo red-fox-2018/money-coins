@@ -1,0 +1,16 @@
+STORE coins TO [1, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000]
+STORE num TO any value
+STORE arrResult TO empty array
+STORE i TO coins length MINUS 1
+
+LOOP i TO 0
+
+  WHILE num more than equal coins i
+    CALCULATE num MINUS coins i
+    INSERT coins i TO arrResult
+  END WHILE
+
+  i MINUS 1
+END LOOP
+
+RETURN arrResult
