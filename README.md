@@ -2,6 +2,7 @@
 
 **PSEUDOCODE**
 
+```javascript
 SET input WITH input from user
 SET result WITH []
 
@@ -39,3 +40,4 @@ WHILE input >= 1
   DO PUSH result WITH 1 AND CALCULATE input - 1
 
 return result
+```
